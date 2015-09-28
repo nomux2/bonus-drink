@@ -1,9 +1,6 @@
 class BonusDrink
 
   BONUS_DRINK_GET_COUNT = 3
-  @error = ""
-  
-  attr_accessor :error
   
   def self.total_count_for(amount)
     
